@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Geist;
+    src: url(GeistVF.woff);
+  }
+
+@font-face {
+    font-family: Terminal;
+    src: url(terminal-grotesque.ttf);
+}
+
+
+body{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    background-color: #131313;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imagens{
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: top center;
+    opacity: 0.2;
+    transition-timing-function: ease-out;
+
+    /* A litttttle slower on the way in */
+    transition: 1.4s;
+}
+
+.imagens:hover{
+    opacity: 0.5;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, h2, h3, h4, h5, a, p {
+    font-family: Geist;
+    color: white;
+}
+
+h1{
+    font-size: 3.815rem;
+}
+
+h2{
+    font-size: 3.052rem;
+}
+
+h3{
+    font-size: 2.441rem;
+}
+
+h6{
+    font-size: 1.25rem;
+}
+
+a, p {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.titulo{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.autor{
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.estilo{
+    color: grey;
+    font-size: 1rem;
+}
+
+.work{
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.work:hover{
+    /*background-image: url(album1.jpg);
+    transition: 300ms ease-in-out 300ms;*/
+}
+
+hr{
+    color:white;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding-left: 0px;
+}
+
