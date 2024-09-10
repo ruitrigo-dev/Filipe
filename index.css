@@ -1,8 +1,9 @@
 body{
-    margin-left: 6rem;
-    margin-right: 6rem;
-    background-color: #131313;
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-family: 'Geist', sans-serif;
+    background: rgb(20,17,20);
+    background: radial-gradient(circle, rgba(20,17,20,1) 0%, rgba(19,19,19,1) 100%);
 }
 
 .main {
@@ -14,7 +15,7 @@ body{
 .imagens{
     border-radius: 100px;
     object-fit: cover;
-    object-position: top center;
+    object-position: center center;
     opacity: 0.2;
     transition-timing-function: ease-out;
 
@@ -23,7 +24,7 @@ body{
 }
 
 .imagens:hover{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 
@@ -41,6 +42,8 @@ h1, h2, h3, h4, h5, a, p {
 
 h1{
     font-size: 3.815rem;
+    filter: drop-shadow(0px 4px 4px #00000063);
+    font-weight: bold;
 }
 
 h2{
@@ -80,6 +83,7 @@ a, p {
     overflow: hidden;
     margin-bottom: 1rem;
     border-radius: 1rem;
+    outline-style: solid;
 }
 
 .work:hover{
@@ -97,3 +101,7 @@ button {
     padding-left: 0px;
 }
 
+.navbar:hover{
+    text-decoration: underline;
+    border-radius: 25px;
+}
